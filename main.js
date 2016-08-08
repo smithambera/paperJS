@@ -117,7 +117,7 @@ function makeEllipse() {
 
 document.body.addEventListener('keypress', function(e) {
   headline.classList.add('hidden')
-  // song.play()
+  song.play()
   console.log(e.charCode)
 
   if(e.charCode === 13) {
